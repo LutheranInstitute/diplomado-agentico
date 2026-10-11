@@ -13,7 +13,7 @@ ticker:
   - "NUNCA PEGUES CONTRASEÑAS EN UN CHAT"
 ---
 
-<div class="stats"><div class="stat"><b>4</b><span>MÓDULOS</span></div><div class="stat"><b>{{ site.clases | size }}</b><span>CLASES</span></div><div class="stat"><b>1</b><span>PROYECTO</span></div></div>
+<div class="stats"><div class="stat"><b>4</b><span>MÓDULOS</span></div><div class="stat"><b>{{ site.clases | size }}</b><span>CLASES</span></div><div class="stat"><b>3</b><span>REPOS</span></div></div>
 
 <div class="row"><button type="button" class="btn" data-fold-all>DESPLEGAR TODO +</button><button type="button" class="btn y" data-tutor-open>PREGÚNTALE A æ</button></div>
 
@@ -75,6 +75,36 @@ Rúbrica del proyecto: historia clara 25 · uso crítico del agente 25 · pertin
 Piezas comunes: meta, contexto, memoria, habilidades, herramientas y permiso humano. Ningún agente califica, borra ni entrega por ti.
 
 > Evidencia ≠ autoridad: la supervisión informa, el humano decide.
+</div>
+</details>
+
+<details class="fold b" id="toolchain">
+<summary><span class="n">06</span><span class="t">Toolchain<small>repos · herramientas · todo abierto</small></span><span class="pm"></span></summary>
+<div class="in-fold" markdown="1">
+**Repositorios**
+
+| Repo | Para qué |
+|---|---|
+| [diplomado-agentico](https://github.com/yaeleureka-afk/diplomado-agentico) | Este portal: clases, tareas, licencia |
+| [mi-diplomado](https://github.com/yaeleureka-afk/mi-diplomado) | Plantilla del alumno: README, AGENTS, REFLEXION |
+| [teotech-theme](https://github.com/yaeleureka-afk/teotech-theme) | Theme 9:16 con WebGPU y tutor æ |
+
+**Herramientas**
+
+| Capa | Herramienta |
+|---|---|
+| Aprender | Google Classroom · Comunidad Tech en WhatsApp |
+| Agentes | Hark · Hermes Agent · tutor æ |
+| IA local | WebGPU · WebLLM · Qwen2.5 0.5B |
+| Construir | Git · GitHub · Markdown |
+| Publicar | GitHub Pages · Jekyll |
+| Comprobar | Historial de commits · revisión humana |
+
+```text
+>_ aprender → construir → comprobar → enseñar ↺
+```
+
+<div class="row"><a class="btn y" href="https://github.com/yaeleureka-afk/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://yaeleureka-afk.github.io/teotech-theme/">VER THEME ›</a><button type="button" class="btn" data-copy="git clone https://github.com/yaeleureka-afk/mi-diplomado.git">COPIAR CLONE</button></div>
 </div>
 </details>
 

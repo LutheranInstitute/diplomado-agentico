@@ -3,6 +3,7 @@
 ## 2026-10-10
 - Portal 9:16 en estilo æ:// Pico OS: Hoy, Empieza aquí, Ruta, Tareas, Agentes y Terminal.
 - «Empieza aquí»: requisitos, acceso a Hark y primera práctica de 10 minutos.
+- Toolchain en la portada: repos y herramientas del curso.
 - Portada nueva con tickers y secciones plegables; la app anterior queda en /app/.
 - Theme TEOTECH 9:16 (WebGPU + tutor æ con WebLLM) en clases, licencia e instalar.
 - Guía para instalar Hark y Hermes Agent (pestaña Agentes y página /instalar/).
