@@ -8,7 +8,7 @@ teotech:
   tutor: true
   footer: "æ://neuromitosis/teotech · #OpenCourseWare 🏵️ · Se multiplica la enseñanza. El humano conserva el criterio."
   dock:
-    - {label: "PORTAL", icon: "⌂", url: "/"}
+    - {label: "INICIO", icon: "⌂", url: "/"}
     - {label: "CLASES", icon: "≡", url: "/clases/"}
     - {label: "INSTALAR", icon: ">_", url: "/instalar/"}
 lang: es
