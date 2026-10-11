@@ -36,6 +36,23 @@ Ambos comparten las mismas piezas: meta, contexto, memoria, habilidades, herrami
 
 > La configuración está revisada contra la documentación, pero todavía no se ha probado en la instalación.
 
+## Estructura del repo
+
+Organizado como [Missing Semester](https://github.com/missing-semester/missing-semester): clases, prácticas, recursos e historial.
+
+| Carpeta o archivo | Qué contiene |
+|---|---|
+| `index.html` | Portal 9:16 para el celular (fuente en `_src/`) |
+| `_clases/` | Una página por clase: idea, práctica, biblioteca y entrega |
+| `modulos/` | Visión general de cada módulo y rúbricas |
+| `clases.md` | Índice de clases |
+| `AGENTS.md` | Reglas para el ayudante æ |
+| `hermes/` | Configuración de ejemplo Hermes + Composio |
+| `CHANGELOG.md` | Historial de mejoras |
+| `license.md` | Licencia y atribución |
+
+Plantilla para alumnos: [mi-diplomado](https://github.com/yaeleureka-afk/mi-diplomado).
+
 ## Atribución y licencia
 
 Adaptado de [*The Missing Semester of Your CS Education* (MIT, 2026)](https://missing.csail.mit.edu/2026/). **Cambios:** traducción al español, enfoque móvil y de baja conectividad, integración con Google Classroom, agentes Hark y Hermes, y proyecto comunitario.

@@ -2,3 +2,16 @@ title: "TEOTECH · Diplomado agéntico"
 description: "Nivelación agéntica del Diplomado en Transformación Digital · Instituto Luterano Latinoamericano · CC BY-NC-SA 4.0"
 theme: jekyll-theme-minimal
 lang: es
+timezone: America/Chicago
+
+collections:
+  clases:
+    output: true
+    permalink: /clases/:name/
+
+exclude:
+  - AGENTS.md
+  - CHANGELOG.md
+  - _src
+  - hermes/config.example.yaml
+  - hermes/env.example
