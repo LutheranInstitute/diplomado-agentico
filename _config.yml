@@ -1,6 +1,16 @@
 title: "TEOTECH · Diplomado agéntico"
 description: "Nivelación agéntica del Diplomado en Transformación Digital · Instituto Luterano Latinoamericano · CC BY-NC-SA 4.0"
-theme: jekyll-theme-minimal
+remote_theme: yaeleureka-afk/teotech-theme
+plugins:
+  - jekyll-remote-theme
+teotech:
+  handle: neuromitosis/teotech
+  tutor: true
+  footer: "æ://neuromitosis/teotech · #OpenCourseWare 🏵️ · Se multiplica la enseñanza. El humano conserva el criterio."
+  dock:
+    - {label: "PORTAL", icon: "⌂", url: "/"}
+    - {label: "CLASES", icon: "≡", url: "/clases/"}
+    - {label: "INSTALAR", icon: ">_", url: "/instalar/"}
 lang: es
 timezone: America/Chicago
 
