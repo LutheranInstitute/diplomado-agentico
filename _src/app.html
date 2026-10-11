@@ -82,6 +82,7 @@
           <li>Descarga Hark Pro y entra con tu Gmail.</li>
           <li>Escríbele: «Hola, soy alumno del Diplomado en Transformación Digital».</li>
           <li>Regla de oro: nunca le des datos de alumnos, feligreses ni contraseñas.</li>
+          <li>¿Avanzado? Instala también Hermes Agent en la pestaña <b>AGENTES</b>.</li>
         </ul>
         <div class="btns"><a href="https://apps.apple.com/us/app/hark-pro/id6772362941" target="_blank" rel="noopener">IPHONE ›</a><a href="https://play.google.com/store/apps/details?id=com.hark.android" target="_blank" rel="noopener">ANDROID ›</a><a href="https://www.hark.com/" target="_blank" rel="noopener">WEB ›</a></div>
       </div>
@@ -182,6 +183,31 @@
 
     <!-- AGENTES -->
     <section class="screen" id="s-agentes">
+      <div class="lbl">INSTALAR · TU AGENTE EN 5 MINUTOS</div>
+      <div class="card inst">
+        <h3>🤳 INSTALAR HARK · ALUMNOS</h3>
+        <div class="m">Gratis · iPhone (iOS 17.6+), Android y web</div>
+        <ol class="ol">
+          <li>Descarga <b>Hark Pro</b> en tu tienda o ábrelo en el navegador.</li>
+          <li>Crea tu cuenta con tu Gmail, el mismo del Classroom.</li>
+          <li>Opcional: conecta Google para que te ayude con Drive y Docs.</li>
+          <li>Escribe tu primer encargo: «Soy alumno del Diplomado en Transformación Digital. Ayúdame a…».</li>
+        </ol>
+        <div class="btns"><a href="https://apps.apple.com/us/app/hark-pro/id6772362941" target="_blank" rel="noopener">IPHONE ›</a><a href="https://play.google.com/store/apps/details?id=com.hark.android" target="_blank" rel="noopener">ANDROID ›</a><a href="https://www.hark.com/" target="_blank" rel="noopener">WEB ›</a></div>
+      </div>
+      <div class="card inst">
+        <h3>🪽 INSTALAR HERMES AGENT · AVANZADOS</h3>
+        <div class="m">Software libre (MIT) · computadora, VPS o Android con Termux</div>
+        <ol class="ol">
+          <li><b>Linux, macOS o WSL2:</b> en la terminal<div class="code"><code>curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash</code><button type="button" class="cp" data-c="curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash">COPIAR</button></div></li>
+          <li><b>Windows:</b> en PowerShell<div class="code"><code>iex (irm https://hermes-agent.nousresearch.com/install.ps1)</code><button type="button" class="cp" data-c="iex (irm https://hermes-agent.nousresearch.com/install.ps1)">COPIAR</button></div></li>
+          <li><b>Recarga la terminal y elige el modelo:</b> con Nous Portal (una sola suscripción) o con tu propio proveedor<div class="code"><code>source ~/.bashrc</code><button type="button" class="cp" data-c="source ~/.bashrc">COPIAR</button></div><div class="code"><code>hermes setup --portal</code><button type="button" class="cp" data-c="hermes setup --portal">COPIAR</button></div><div class="code"><code>hermes model</code><button type="button" class="cp" data-c="hermes model">COPIAR</button></div></li>
+          <li><b>Conversa:</b><div class="code"><code>hermes</code><button type="button" class="cp" data-c="hermes">COPIAR</button></div>Si algo falla:<div class="code"><code>hermes doctor</code><button type="button" class="cp" data-c="hermes doctor">COPIAR</button></div></li>
+          <li><b>WhatsApp o Telegram</b> (Módulo 3, con revisión humana):<div class="code"><code>hermes gateway setup</code><button type="button" class="cp" data-c="hermes gateway setup">COPIAR</button></div></li>
+        </ol>
+        <p class="warn">Android: usa la guía de Termux, no el instalador de computadora. Nunca pegues llaves ni contraseñas en el chat ni en el repo.</p>
+        <div class="btns"><a href="https://hermes-agent.nousresearch.com/docs/getting-started/quickstart" target="_blank" rel="noopener">GUÍA RÁPIDA ›</a><a href="https://hermes-agent.nousresearch.com/docs/getting-started/termux" target="_blank" rel="noopener">TERMUX ›</a><a href="https://github.com/NousResearch/hermes-agent" target="_blank" rel="noopener">REPO ›</a></div>
+      </div>
       <div class="lbl">DOS AGENTES · UNA MISMA LECCIÓN</div>
       <div class="vs">
         <div class="ag h"><h3>HARK</h3><dl><dt>PARA QUIÉN</dt><dd>Alumnos, desde el celular</dd><dt>DÓNDE</dt><dd>iOS, Android y web</dd><dt>COSTO</dt><dd>Plan gratuito</dd><dt>LECCIÓN</dt><dd>Las piezas de un agente</dd></dl></div>
@@ -283,6 +309,9 @@ var ENC="Soy alumno del Diplomado en Transformación Digital. Esta es una pregun
 document.getElementById("cpy").addEventListener("click",function(){var b=this;function ok(){b.textContent="✓ COPIADO";setTimeout(function(){b.textContent="COPIAR ENCARGO";},1800);}
   if(navigator.clipboard)navigator.clipboard.writeText(ENC).then(ok,function(){prompt("Copia el encargo:",ENC);});else prompt("Copia el encargo:",ENC);});
 
+document.querySelectorAll(".cp").forEach(function(b){b.addEventListener("click",function(){var c=b.dataset.c;function ok(){b.textContent="✓";setTimeout(function(){b.textContent="COPIAR";},1500);}
+  if(navigator.clipboard)navigator.clipboard.writeText(c).then(ok,function(){prompt("Copia:",c);});else prompt("Copia:",c);});});
+
 /* terminal */
 var term=document.getElementById("term");
 function line(h,c){var d=document.createElement("div");d.className="ln "+(c||"");d.innerHTML=h;term.appendChild(d);term.scrollTop=term.scrollHeight;while(term.children.length>40)term.removeChild(term.firstChild);}
@@ -290,7 +319,7 @@ function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g
 var C={
   empieza:function(){line("1 requisitos · 2 Hark · 3 práctica de 10 min · 4 plantilla y entrega → pestaña <span class='g'>EMPIEZA</span>","sys");},
   plantilla:function(){line("github.com/yaeleureka-afk/mi-diplomado → <span class='g'>Use this template</span>","sys");},
-  ayuda:function(){line("empieza · plantilla · modulos · m1 · m4 · tareas · ciclo · regla · privacidad · agentes · proximo · limpiar","sys");},
+  ayuda:function(){line("empieza · instalar · plantilla · modulos · m1 · m4 · tareas · ciclo · regla · privacidad · agentes · proximo · limpiar","sys");},
   modulos:function(){["De conversar con la IA a dirigir agentes","Contexto e instrucciones","Agentes con herramientas","Construir, revisar y enseñar desde el celular"].forEach(function(m,i){line("  <span class='g'>M"+(i+1)+"</span> "+m,"sys");});},
   m1:function(){line("S1 modelo de lenguaje · S2 del chat al agente · S3 comprobar · S4 criterio","sys");line("→ <span class='n'>Bitácora de supervisión</span>","sys");},
   m4:function(){line("C1 Git como historia · C2 GitHub · C3 programación agéntica · C4 proyecto","sys");line("→ <span class='n'>Proyecto publicado en GitHub Pages</span>","sys");},
@@ -298,6 +327,7 @@ var C={
   ciclo:function(){line("agente propone → alumno comprueba → <span class='g'>humano decide</span> → comunidad aprende ♻️","sys");},
   regla:function(){line("descubrir → preparar → <span class='g'>revisión humana</span> → ejecutar → conservar evidencia","sys");},
   privacidad:function(){line("Nunca a la IA: <span class='r'>datos de alumnos · de feligreses · contraseñas</span>","sys");},
+  instalar:function(){line("Hark: App Store, Google Play o hark.com · Hermes: <span class='n'>curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash</span> · guía en <span class='g'>AGENTES</span>","sys");},
   agentes:function(){line("<span class='n'>Hark</span> alumnos, celular, gratis · <span class='c'>Hermes æ</span> docente, VPS, libre","sys");},
   proximo:function(){line("Martes 7:00 pm hora Texas · faltan <span class='g'>"+document.getElementById("cd").textContent+"</span>","sys");}
 };
@@ -307,7 +337,7 @@ function run(c){c=c.trim();if(!c)return;line("&gt;_ "+esc(c),"g");var h=c.split(
 line("Diplomado en Transformación Digital · Instituto Luterano Latinoamericano","sys");
 line("Toca un comando o escribe <span class='g'>ayuda</span>","sys");
 var chips=document.getElementById("chips");
-["modulos","tareas","ciclo","regla","privacidad","proximo"].forEach(function(k){var b=document.createElement("button");b.type="button";b.textContent=k;b.onclick=function(){run(k);};chips.appendChild(b);});
+["instalar","modulos","tareas","ciclo","privacidad","proximo"].forEach(function(k){var b=document.createElement("button");b.type="button";b.textContent=k;b.onclick=function(){run(k);};chips.appendChild(b);});
 document.getElementById("cform").addEventListener("submit",function(e){e.preventDefault();var i=document.getElementById("cin");run(i.value);i.value="";});
 })();
 </script>

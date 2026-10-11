@@ -88,3 +88,10 @@ nav button{font-size:5.5px;letter-spacing:.04em}
 .timer{display:flex;gap:4px;align-items:center;margin-top:6px}
 .timer span{font:800 16px/1 var(--mono);color:var(--gold-hot);flex:1}
 .timer button{border:1px solid var(--line-hot);border-radius:5px;background:rgba(212,175,55,.08);color:var(--gold-hot);font:700 6.5px/1 var(--mono);padding:6px 6px;cursor:pointer}
+.inst h3{font-size:8.5px}
+.ol{margin:5px 0 0 14px;font:600 6.8px/1.5 var(--mono);color:var(--ink2)}
+.ol li{margin-top:3px}.ol b{color:var(--ink)}
+.code{display:flex;align-items:center;gap:4px;margin-top:3px;border:1px solid rgba(0,255,170,.3);border-radius:4px;background:rgba(0,0,0,.45);padding:3px 3px 3px 5px}
+.code code{flex:1;font:600 6.3px/1.35 var(--mono);color:var(--neon);word-break:break-all}
+.code .cp{flex-shrink:0;border:1px solid var(--line);border-radius:3px;background:transparent;color:var(--gold);font:700 5.5px/1 var(--mono);padding:3px 4px;cursor:pointer}
+.warn{margin-top:5px;font:600 6px/1.4 var(--mono);color:var(--gold)!important}
