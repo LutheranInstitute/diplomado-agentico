@@ -1,0 +1,17 @@
+# Fragmento para ~/.hermes/config.yaml
+# Revisado contra la documentación de Hermes; todavía no probado en esta instalación.
+# Primero corre `hermes mcp test composio` en la terminal y confirma
+# los nombres exactos de las herramientas antes de fijar tools.include.
+# Ojo: filtrar herramientas NO limita lo que puede hacer el ejecutor genérico.
+# La regla de ejecución vive en AGENTS.md y en los permisos de las cuentas.
+mcp_servers:
+  composio:
+    url: "https://connect.composio.dev/mcp"
+    headers:
+      x-consumer-api-key: "${COMPOSIO_MCP_KEY}"
+    tools:
+      include:
+        - COMPOSIO_SEARCH_TOOLS
+        - COMPOSIO_GET_TOOL_SCHEMAS
+        - COMPOSIO_MULTI_EXECUTE_TOOL
+        - COMPOSIO_MANAGE_CONNECTIONS
