@@ -64,7 +64,7 @@ Si un alumno llega solo al paso 3, **también es un logro**. Lo demás se termin
 Pide que cada alumno muestre en su pantalla la evidencia del paso:
 
 - **Cuenta:** ve su foto o inicial arriba a la derecha en github.com.
-- **Repo:** la dirección dice `github.com/SU-USUARIO/mi-diplomado`, no `yaeleureka-afk/...`.
+- **Repo:** la dirección dice `github.com/SU-USUARIO/mi-diplomado`, no `LutheranInstitute/...`.
 - **Commit:** arriba de los archivos aparece su mensaje y “1 minute ago”.
 - **Pages:** en Settings → Pages aparece “Your site is live at…”.
 - **Sitio:** la dirección abre su página, no un 404.
@@ -160,6 +160,18 @@ Pregunta al grupo:
 3. ¿Qué le explicarías mañana a alguien que empieza?
 
 La tercera pregunta es la que cuenta: **Esto aprendí. Esto construí. Esto publiqué. Esto puedo enseñar.**
+
+## 11 · Crea tu propia escuela
+
+El último paso del docente: **lo que aprendiste, ahora lo enseñas con tu propia escuela**, bajo el sello L:// y en abierto.
+
+1. **Tu repo.** Parte de la plantilla [`mi-diplomado`](https://github.com/LutheranInstitute/mi-diplomado): nombre de tu escuela o curso, público, con GitHub Pages activo.
+2. **Tu color.** Elige el de tu escuela: 🟨 Tecnología · 🟦 Teología · 🟩 Enchiridion.
+3. **Tu colateral.** Descarga la plantilla oficial de Tumblr y el kit en [I+D Institucional](https://lutheraninstitute.github.io/investigacion/#colateral): 1280×1920, papel crema, sello L:// y dibujo de una línea.
+4. **Tu anuncio.** Publica tu primer post con el enlace a tu sitio y la etiqueta `#elearnlatam`. Antes de publicar: ¿el enlace abre? ¿los datos son correctos?
+5. **Tu primera clase.** Usa esta misma guía: semáforo, regla de los 2 minutos y rúbrica.
+
+> El agente propone, tú compruebas, tú decides. Tu escuela es tuya; el Instituto la acompaña.
 
 ---
 
