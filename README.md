@@ -51,7 +51,7 @@ Organizado como [Missing Semester](https://github.com/missing-semester/missing-s
 | `CHANGELOG.md` | Historial de mejoras |
 | `license.md` | Licencia y atribución |
 
-Plantilla para alumnos: [mi-diplomado](https://github.com/yaeleureka-afk/mi-diplomado).
+Plantilla para alumnos: [mi-diplomado](https://github.com/LutheranInstitute/mi-diplomado).
 
 ## Atribución y licencia
 

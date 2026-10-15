@@ -14,4 +14,4 @@ Adaptado de [*The Missing Semester of Your CS Education*](https://missing.csail.
 **Cambios:** traducción al español; enfoque móvil y de baja conectividad; integración con Google Classroom; agentes Hark y Hermes; proyecto comunitario; organización por módulos y clases propia del Instituto Luterano Latinoamericano.
 
 ## Cómo contribuir
-Correcciones y sugerencias por issue o pull request en el [repositorio del diplomado](https://github.com/yaeleureka-afk/diplomado-agentico).
+Correcciones y sugerencias por issue o pull request en el [repositorio del diplomado](https://github.com/LutheranInstitute/diplomado-agentico).

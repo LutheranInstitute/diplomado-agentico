@@ -25,7 +25,7 @@ ticker:
 3. **Primera práctica, 10 minutos:** haz una pregunta real de tu escuela, iglesia o negocio a Hark y a otra IA. Compara en qué coinciden y qué comprobarías primero. Anota qué propusieron, qué comprobaste y qué decidiste.
 4. **Tu repo:** usa la plantilla, nómbrala `mi-diplomado` y sube el enlace a Classroom.
 
-<div class="row"><a class="btn y" href="https://github.com/yaeleureka-afk/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://classroom.google.com/w/NzA3NjQyMTc1MzI2/t/all">CLASSROOM ›</a></div>
+<div class="row"><a class="btn y" href="https://github.com/LutheranInstitute/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://classroom.google.com/w/NzA3NjQyMTc1MzI2/t/all">CLASSROOM ›</a></div>
 </div>
 </details>
 
@@ -85,9 +85,9 @@ Piezas comunes: meta, contexto, memoria, habilidades, herramientas y permiso hum
 
 | Repo | Para qué |
 |---|---|
-| [diplomado-agentico](https://github.com/yaeleureka-afk/diplomado-agentico) | Este portal: clases, tareas, licencia |
-| [mi-diplomado](https://github.com/yaeleureka-afk/mi-diplomado) | Plantilla del alumno: README, AGENTS, REFLEXION |
-| [teotech-theme](https://github.com/yaeleureka-afk/teotech-theme) | Theme 9:16 con WebGPU y tutor æ |
+| [diplomado-agentico](https://github.com/LutheranInstitute/diplomado-agentico) | Este portal: clases, tareas, licencia |
+| [mi-diplomado](https://github.com/LutheranInstitute/mi-diplomado) | Plantilla del alumno: README, AGENTS, REFLEXION |
+| [teotech-theme](https://github.com/LutheranInstitute/teotech-theme) | Theme 9:16 con WebGPU y tutor æ |
 
 **Herramientas**
 
@@ -104,7 +104,7 @@ Piezas comunes: meta, contexto, memoria, habilidades, herramientas y permiso hum
 >_ aprender → construir → comprobar → enseñar ↺
 ```
 
-<div class="row"><a class="btn y" href="https://github.com/yaeleureka-afk/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://yaeleureka-afk.github.io/teotech-theme/">VER THEME ›</a><button type="button" class="btn" data-copy="git clone https://github.com/yaeleureka-afk/mi-diplomado.git">COPIAR CLONE</button></div>
+<div class="row"><a class="btn y" href="https://github.com/LutheranInstitute/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://lutheraninstitute.github.io/teotech-theme/">VER THEME ›</a><button type="button" class="btn" data-copy="git clone https://github.com/LutheranInstitute/mi-diplomado.git">COPIAR CLONE</button></div>
 </div>
 </details>
 
