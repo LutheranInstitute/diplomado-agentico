@@ -13,7 +13,7 @@ ticker:
   - "NUNCA PEGUES CONTRASEÑAS EN UN CHAT"
 ---
 
-<div class="stats"><div class="stat"><b>4</b><span>MÓDULOS</span></div><div class="stat"><b>{{ site.clases | size }}</b><span>CLASES</span></div><div class="stat"><b>3</b><span>REPOS</span></div></div>
+<div class="stats"><div class="stat"><b>4</b><span>MÓDULOS</span></div><div class="stat"><b>{{ site.clases | size }}</b><span>CLASES</span></div><div class="stat"><b>5</b><span>REPOS</span></div></div>
 
 <div class="row"><button type="button" class="btn" data-fold-all>DESPLEGAR TODO +</button><button type="button" class="btn y" data-tutor-open>PREGÚNTALE A æ</button></div>
 
@@ -88,6 +88,8 @@ Piezas comunes: meta, contexto, memoria, habilidades, herramientas y permiso hum
 | [diplomado-agentico](https://github.com/LutheranInstitute/diplomado-agentico) | Este portal: clases, tareas, licencia |
 | [mi-diplomado](https://github.com/LutheranInstitute/mi-diplomado) | Plantilla del alumno: README, AGENTS, REFLEXION |
 | [teotech-theme](https://github.com/LutheranInstitute/teotech-theme) | Theme 9:16 con WebGPU y tutor æ |
+| [escuela-teologia](https://github.com/LutheranInstitute/escuela-teologia) | Escuela de Teología: Catecismo Menor |
+| [biblioteca-luterana](https://github.com/LutheranInstitute/biblioteca-luterana) | Fuentes: Enchiridion, Confesiones |
 
 **Herramientas**
 
@@ -105,6 +107,17 @@ Piezas comunes: meta, contexto, memoria, habilidades, herramientas y permiso hum
 ```
 
 <div class="row"><a class="btn y" href="https://github.com/LutheranInstitute/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://lutheraninstitute.github.io/teotech-theme/">VER THEME ›</a><button type="button" class="btn" data-copy="git clone https://github.com/LutheranInstitute/mi-diplomado.git">COPIAR CLONE</button></div>
+</div>
+</details>
+
+<details class="fold g" id="teologia">
+<summary><span class="n">07</span><span class="t">Escuela de Teología<small>Catecismo Menor · sábados 7 PM Texas</small></span><span class="pm"></span></summary>
+<div class="in-fold" markdown="1">
+La misma escuela, otra materia: **aprender → construir → comprobar → enseñar** con el Catecismo Menor de Lutero. Híbrido y virtual por Zoom + Hark Pro, de 3 a 103 años.
+
+> La Escritura es la norma; Hark solo ayuda; el humano decide.
+
+<div class="row"><a class="btn g" href="https://lutheraninstitute.github.io/escuela-teologia/">ENTRAR A TEOLOGÍA ›</a><a class="btn" href="https://classroom.google.com/c/ODA2NjU2ODIxNTg0?cjc=edejxhep">CLASSROOM TEOLOGÍA ›</a><a class="btn" href="https://lutheraninstitute.github.io/teologia/">BIBLIOTECA LUTERANA ›</a></div>
 </div>
 </details>
 
