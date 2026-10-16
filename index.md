@@ -13,6 +13,11 @@ ticker:
   - "NUNCA PEGUES CONTRASEÑAS EN UN CHAT"
 ---
 
+
+<div class="anim-l" style="margin:16px auto;text-align:center;max-width:300px">
+<a href="https://lutheraninstitute.github.io/l/" aria-label="Animación · L:// Tecnología" style="display:block;border:3px solid #E8B400;border-radius:10px;overflow:hidden;line-height:0"><iframe src="https://lutheraninstitute.github.io/l/" title="Animación · L:// Tecnología" loading="lazy" style="width:100%;aspect-ratio:9/16;border:0;pointer-events:none;background:#1c2621"></iframe></a>
+<small>🟨 Comando y control de tu teléfono, y no a la inversa · <a href="https://lutheraninstitute.github.io/l/">Ver en pantalla completa ›</a></small>
+</div>
 <div class="stats"><div class="stat"><b>4</b><span>MÓDULOS</span></div><div class="stat"><b>{{ site.clases | size }}</b><span>CLASES</span></div><div class="stat"><b>5</b><span>REPOS</span></div></div>
 
 <div class="row"><button type="button" class="btn" data-fold-all>DESPLEGAR TODO +</button><button type="button" class="btn y" data-tutor-open>PREGÚNTALE A æ</button></div>
