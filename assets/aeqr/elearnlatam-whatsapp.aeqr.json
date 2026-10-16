@@ -1,0 +1,37 @@
+{
+  "schema": "aeqr 0.1",
+  "id": "aeqr://lutheraninstitute/diplomado-agentico/elearnlatam-whatsapp",
+  "kind": "community-invite",
+  "name": "#eLearnLATAM · WhatsApp",
+  "version": "0.1.0",
+  "parent": "aeqr://lutheraninstitute/diplomado-agentico",
+  "location": {
+    "repo": "LutheranInstitute/diplomado-agentico",
+    "path": "assets/aeqr/elearnlatam-whatsapp.png",
+    "render": "https://lutheraninstitute.github.io/diplomado-agentico/#elearnlatam",
+    "target": "https://chat.whatsapp.com/IBfCSjTAA3h6OlppM8mUzh"
+  },
+  "capabilities": [
+    {
+      "name": "open_invite",
+      "risk": "low",
+      "approval": "none"
+    }
+  ],
+  "authority": {
+    "principal": "Yæl Méndez",
+    "inherits_to_forks": false,
+    "note": "Scanning opens the invite; it never acts."
+  },
+  "provenance": {
+    "author": "Yæl Méndez",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "witness": {
+    "decoders": [
+      "zxing-cpp 100/50/35%",
+      "OpenCV"
+    ],
+    "date": "2026-10-16"
+  }
+}
