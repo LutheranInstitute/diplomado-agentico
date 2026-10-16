@@ -19,6 +19,10 @@ Nivelación agéntica del **Diplomado en Transformación Digital** del Instituto
 | [3](modulos/modulo-3.md) | Productividad y creatividad | Agentes con herramientas | Flujo automatizado y revisado |
 | [4](modulos/modulo-4.md) | IA para la comunidad | Construir, revisar y enseñar desde el celular | Proyecto publicado en GitHub |
 
+## Regalo abierto · #🎁 #osw
+
+[**Cuenta tu historia**](https://lutheraninstitute.github.io/regalo/historia/): siete pasos y un ejercicio de 15 minutos. Encaja con el Módulo 4: antes de publicar su proyecto, cada alumno cuenta la historia de su comunidad. Funciona con un celular sencillo, poca señal y en voz alta. *Por gracia es dado.*
+
 ## Dos agentes, una misma lección
 
 | | Hark | Hermes Agent |
