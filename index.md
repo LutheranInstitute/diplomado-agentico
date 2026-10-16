@@ -26,6 +26,14 @@ ticker:
 4. **Tu repo:** usa la plantilla, nómbrala `mi-diplomado` y sube el enlace a Classroom.
 
 <div class="row"><a class="btn y" href="https://github.com/LutheranInstitute/mi-diplomado">USAR PLANTILLA ›</a><a class="btn" href="https://classroom.google.com/w/NzA3NjQyMTc1MzI2/t/all">CLASSROOM ›</a></div>
+
+<div id="elearnlatam" style="margin:18px 0;padding:14px;border:3px solid #E8B400;background:#fff8e6;text-align:center">
+<div class="lbl">æQR://elearnlatam/whatsapp</div>
+<p><strong>Únete a #eLearnLATAM</strong> · el grupo de WhatsApp del Diplomado. Escanea o toca. <br><small>Join our WhatsApp group · scan or tap.</small></p>
+<img src="/diplomado-agentico/assets/aeqr/elearnlatam-whatsapp.png" alt="æQR para unirte a #eLearnLATAM en WhatsApp" width="220" style="max-width:60%;height:auto;margin:6px auto;display:block">
+<div class="row" style="justify-content:center"><a class="btn g" href="https://chat.whatsapp.com/IBfCSjTAA3h6OlppM8mUzh">UNIRME A #eLearnLATAM ›</a></div>
+</div>
+
 </div>
 </details>
 
