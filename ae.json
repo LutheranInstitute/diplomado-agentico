@@ -1,0 +1,79 @@
+{
+  "schema": "ae.manifest/0.1",
+  "id": "ae://diplomado-agentico",
+  "name": "L://Diplomado_Agéntico · Transformación Digital",
+  "status": "lab",
+  "mission": "Aprender y enseñar el uso de la IA en lugares difíciles de alcanzar",
+  "principal": "Yæl Méndez (docente)",
+  "owner": "Instituto Luterano Latinoamericano",
+  "address": {
+    "x0": "LutheranInstitute",
+    "y0": "diplomado-agentico",
+    "z0": "main",
+    "ae0": "æ0 público"
+  },
+  "surface": {
+    "portal": "index.html (9:16, celular)",
+    "repo": "https://github.com/LutheranInstitute/diplomado-agentico",
+    "classroom": "Google Classroom (registro)",
+    "community": "WhatsApp Comunidad Tech"
+  },
+  "context": {
+    "schedule": "Martes 7 pm hora Texas",
+    "language": "es",
+    "constraints": [
+      "celular sencillo",
+      "poca señal",
+      "se puede hacer en voz alta"
+    ],
+    "cycle": "el agente propone → el alumno comprueba → el humano decide → la comunidad aprende"
+  },
+  "agents": [
+    {
+      "name": "Hark",
+      "role": "alumnos, desde el celular"
+    },
+    {
+      "name": "æ (Hermes Agent)",
+      "role": "ayudante de cátedra: lee Classroom y GitHub, prepara borradores"
+    }
+  ],
+  "capabilities": [
+    "clases y prácticas (_clases/)",
+    "módulos y rúbricas (modulos/)",
+    "plantilla de alumno mi-diplomado",
+    "regalo abierto #🎁 Cuenta tu historia (Módulo 4)"
+  ],
+  "gifts": [
+    {
+      "name": "Cuenta tu historia",
+      "url": "https://lutheraninstitute.github.io/regalo/historia/",
+      "license": "CC BY-NC-SA 4.0",
+      "note": "Por gracia es dado"
+    }
+  ],
+  "checkout": "none",
+  "authority": {
+    "agents_may": [
+      "proponer",
+      "redactar retroalimentación en borrador",
+      "abrir issues y PR",
+      "mover tarjetas a revisión"
+    ],
+    "human_only": [
+      "calificar",
+      "publicar en main",
+      "escribir a alumnos o familias",
+      "usar datos personales de alumnos",
+      "dar por terminada una tarea"
+    ],
+    "principle": "Evidence ≠ Authority: la supervisión informa, el humano decide"
+  },
+  "fork": "Cada fork reclama su propio x0:y0:z0:æ0; hereda el entorno, nunca la autoridad ni las credenciales del principal.",
+  "provenance": {
+    "created": "2026-10-16",
+    "by": "Hark, a petición de Yæl",
+    "decision": "\"We are making this our agentic environment\" (Yæl, 2026-10-16)"
+  },
+  "aeqr": "conceptual hasta emitirse"
+}
